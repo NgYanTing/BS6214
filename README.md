@@ -6,6 +6,7 @@ This was an attempt at analysing RNA-sequencing data from this [paper](https://d
 
 It was found that the results related to RNA-sequencing reported in the paper were incredibly robust!
 
+
 **(2) Population genetics of _Vitis vinifera_**
 
 This was an exercise using a small subset of RNA-sequencing data of wine grapes (<i>Vitis vinifera</i>) from this [paper](https://www.nature.com/articles/s41467-021-27487-y). 8 wild grape varieties were compared to 11 cultivars to look for signs of selection on chromosome 17 as reported in the paper. Codes here are the R codes processing the outputs from GATK-4.1.9.0 (joint genotyping), PLINK-1.9 (PCA and IBS distances) and vcftools-0.1.16 (nucleotide diversities and fixation indices).
